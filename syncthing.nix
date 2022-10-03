@@ -3,6 +3,7 @@
  services = {
     syncthing = {
       enable = true;
+      relay.enable = false;
       openDefaultPorts = true;
       user = "jacob";
       dataDir = "/home/jacob/synching";
