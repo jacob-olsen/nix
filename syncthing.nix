@@ -7,6 +7,18 @@
       openDefaultPorts = true;
       user = "jacob";
       dataDir = "/home/jacob/synching";
+
+      extraOptions = {
+        gui = {
+          theme = "dark";
+        };
+        options = {
+          globalAnnounceEnabled = false;
+          localAnnounceEnabled = false;
+          relaysEnabled = false;
+        };
+      };
+
       overrideDevices = true;
       overrideFolders = true;
       devices = {
