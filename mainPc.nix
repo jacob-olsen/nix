@@ -8,6 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./zfs.nix
+      ./syncthing.nix
     ];
 
   # Bootloader.
